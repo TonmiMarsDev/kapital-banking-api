@@ -26,8 +26,11 @@
   },
   "dependencies": {
     "@hapi/boom": "^10.0.1",
+    "bcryptjs": "^3.0.2",
     "dotenv": "^16.5.0",
     "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.3",
     "nodemon": "^3.1.9",
     "passport": "^0.7.0",
     "tsconfig-paths": "^4.2.0"
