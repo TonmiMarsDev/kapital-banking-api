@@ -7,6 +7,7 @@
       "@controllers/*": ["controllers/*"],
       "@config/*": ["config/*"],
       "@models/*": ["models/*"],
+      "@middlewares/*": ["middlewares/*"],
     },
     "moduleResolution": "node",
     "outDir": "./dist",
