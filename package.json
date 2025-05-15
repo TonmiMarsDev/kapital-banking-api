@@ -1,0 +1,35 @@
+{
+  "name": "eugeniaia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon -r tsconfig-paths/register src/server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TonmiMarsDev/eugeniaIA.git"
+  },
+  "author": "Misael Antonio Martinez Ramos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TonmiMarsDev/eugeniaIA/issues"
+  },
+  "homepage": "https://github.com/TonmiMarsDev/eugeniaIA#readme",
+  "devDependencies": {
+    "@jest/types": "^29.6.3",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2",
+    "nodemon": "^3.1.9",
+    "passport": "^0.7.0",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
